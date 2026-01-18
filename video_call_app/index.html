@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Video Call App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+        body{
+            background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+            color:#fff;
+            min-height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        .container{
+            width:90%;
+            max-width:420px;
+            background:#111;
+            padding:25px;
+            border-radius:12px;
+            box-shadow:0 10px 30px rgba(0,0,0,.5);
+            text-align:center;
+        }
+        h1{
+            margin-bottom:10px;
+            font-size:26px;
+        }
+        p{
+            font-size:14px;
+            opacity:.85;
+            margin-bottom:25px;
+        }
+        .btn{
+            display:block;
+            width:100%;
+            padding:14px;
+            margin:12px 0;
+            border:none;
+            border-radius:8px;
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+            text-decoration:none;
+            color:#fff;
+        }
+        .btn-register{background:#00c853}
+        .btn-login{background:#2979ff}
+        .btn-dashboard{background:#ff9100}
+        .btn:hover{opacity:.9}
+        footer{
+            margin-top:15px;
+            font-size:12px;
+            opacity:.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>📹 Video Call App</h1>
+    <p>Secure real-time video calling between mobile & desktop using WebRTC</p>
+
+    <!-- Connected PHP Pages -->
+    <a href="register.php" class="btn btn-register">Create Account</a>
+    <a href="login.php" class="btn btn-login">Login</a>
+    <a href="dashboard.php" class="btn btn-dashboard">Dashboard</a>
+
+    <footer>
+        © 2026 Real-Time Video Call System
+    </footer>
+</div>
+
+</body>
+</html>
